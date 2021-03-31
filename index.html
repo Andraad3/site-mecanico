@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <script src="https://kit.fontawesome.com/a452fff056.js" crossorigin="anonymous"></script>
+    <title>FastRepair</title>
+</head>
+<body>
+    <header>
+        <div class="center">
+            <div class="logo"><a href="index.html">FastRepair</a></div>
+            <nav class="menu">
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#sobre">Sobre</a></li>
+                    <li><a href="#contato">Contato</a></li>
+                </ul>
+            </nav>
+            <nav class="menu-mobile">
+                <h2><i class="fa fa-bars"></i></h2>
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#sobre">Sobre</a></li>
+                    <li><a href="#contato">Contato</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <section id="home" class="main">
+        <div class="center">
+            <div class="apresentacao">
+                <h1>FastRepair</h1>
+                <p>A atenção que seu carro precisa !</p>
+            </div>
+            <div class="diferenciais">
+                <div class="diferencial">
+                    <i class="fas fa-car"></i>
+                    <h2>Manutenção</h2>
+                    <p>Fazemos sua manutenção regular com qualidade técnica de nossos funcionários</p>
+                </div>
+                <div class="diferencial">
+                    <i class="fas fa-motorcycle"></i>
+                    <h2>Personalização</h2>
+                    <p>Personalizamos sua moto com a atenção que você precisa</p>
+                </div>
+                <div class="diferencial">
+                    <i class="fas fa-car"></i>
+                    <h2>Envelopamento</h2>
+                    <p>Envelopamos seu veículo</p>
+                </div>
+                <div class="diferencial">
+                    <i class="fas fa-motorcycle"></i>
+                    <h2>Acessórios</h2>
+                    <p>Temos o acessório perfeito para sua moto</p>
+                </div>
+            </div>
+            <div class="clear"></div>
+        </div>
+    </section>
+
+    <section class="numeros">
+        <div class="center">
+            <div class="conquista">
+                <h2>+5000</h2>
+                <p>Clientes</p>
+            </div>
+            <div class="conquista">
+                <h2>+5000</h2>
+                <p>Vendas de acessórios</p>
+            </div>
+            <div class="conquista">
+                <h2>+1000</h2>
+                <p>Restaurações</p>
+            </div>
+            <div class="conquista">
+                <h2>+4000</h2>
+                <p>Personalizações</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="sobre" class="sobre">
+        <div class="center">
+            <div class="imagem"><img src="images/background1.jpg" alt="Mecânico"></div>
+            <div class="texto-sobre">
+                <h1>Sobre nós</h1>
+                <p>Estamos a 20 anos no mercado, trazendo segurança e conforto para nossos clientes. Atualmente temos 3 oficinas, duas em Mogi das Cruzes e uma em Suzano. Com diversos clientes satisfeitos, nossa empresa cresce cada vez mais, nosso foco é a qualidade na entrega e no atendimento ao cliente.</p>
+            </div>
+        </div>
+    </section>
+
+
+
+
+    <footer id="contato" class="contato">
+        <div class="center">
+            <div class="w33">
+                <i class="fas fa-envelope-square"> <p> E-mail: contato@fastrepair.com</p></i>
+                <i class="fas fa-headphones"> <p> Telefone: (11) 4002-8922</p></i>
+                <i class="fas fa-map-pin"> <p> Localização: Mogi das Cruzes - SP</p></i>
+            </div>
+            <div class="w33">
+                <i class="fab fa-dev"> <p> João Andrade</p></i>
+                <i class="fas fa-envelope-square"> <p> E-mail: joao.andraade25@gmail.com</p></i>
+            </div>
+            <div class="w33 redes-sociais">
+                <i class="fab fa-instagram"> <p>@fastrepair</p></i>
+                <i class="fab fa-facebook"> <p>fastrepair</p></i>
+            </div>
+        </div>
+    </footer>
+
+    <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+    <script>
+        $('nav.menu-mobile h2').click(function(){
+            $('nav.menu-mobile ul').slideToggle();
+        })
+    </script>
+</body>
+</html>
